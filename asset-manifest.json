@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Carousel-Slider/static/css/main.073c9b0a.css",
-    "main.js": "/Carousel-Slider/static/js/main.47bf04cc.js",
-    "static/js/787.54527d1f.chunk.js": "/Carousel-Slider/static/js/787.54527d1f.chunk.js",
-    "static/media/logo.svg": "/Carousel-Slider/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/Carousel-Slider/index.html",
-    "main.073c9b0a.css.map": "/Carousel-Slider/static/css/main.073c9b0a.css.map",
-    "main.47bf04cc.js.map": "/Carousel-Slider/static/js/main.47bf04cc.js.map",
-    "787.54527d1f.chunk.js.map": "/Carousel-Slider/static/js/787.54527d1f.chunk.js.map"
+    "main.css": "/pootar/static/css/main.073c9b0a.css",
+    "main.js": "/pootar/static/js/main.557b5ff5.js",
+    "static/js/787.54527d1f.chunk.js": "/pootar/static/js/787.54527d1f.chunk.js",
+    "static/media/logo.svg": "/pootar/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/pootar/index.html",
+    "main.073c9b0a.css.map": "/pootar/static/css/main.073c9b0a.css.map",
+    "main.557b5ff5.js.map": "/pootar/static/js/main.557b5ff5.js.map",
+    "787.54527d1f.chunk.js.map": "/pootar/static/js/787.54527d1f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.47bf04cc.js"
+    "static/js/main.557b5ff5.js"
   ]
 }
