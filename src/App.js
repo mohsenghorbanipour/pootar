@@ -1,15 +1,17 @@
 import "./styles/App.css";
 import VideoCarousel from "./components/VideoCarousel";
 import React from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+// eslint-disable-next-line no-unused-vars
+import { BrowserRouter } from "react-router-dom";
+
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter>
       <div className="App">
-          <Route exact path="/" component={VideoCarousel}></Route>
+        <VideoCarousel />
       </div>
-    </Router>
+    </BrowserRouter>
   );
 }
 
