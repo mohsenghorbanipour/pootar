@@ -1,32 +1,6 @@
 import "./../styles/VideoCarousel.css";
 import React from "react";
 import { Carousel } from "react-bootstrap";
-import vid1 from "./../assets/video/vid1.mp4";
-import vid2 from "./../assets/video/vid2.mp4";
-import vid3 from "./../assets/video/vid3.mp4";
-import vid4 from "./../assets/video/vid4.mp4";
-import vid5 from "./../assets/video/vid5.mp4";
-import vid6 from "./../assets/video/vid6.mp4";
-import vid7 from "./../assets/video/vid7.mp4";
-import vid8 from "./../assets/video/vid8.mp4";
-import vid9 from "./../assets/video/vid9.mp4";
-import vid10 from "./../assets/video/vid10.mp4";
-import vid11 from "./../assets/video/vid11.mp4";
-import vid12 from "./../assets/video/vid12.mp4";
-import vid13 from "./../assets/video/vid13.mp4";
-import vid14 from "./../assets/video/vid14.mp4";
-import vid15 from "./../assets/video/vid15.mp4";
-import vid16 from "./../assets/video/vid16.mp4";
-import vid17 from "./../assets/video/vid17.mp4";
-import vid18 from "./../assets/video/vid18.mp4";
-import vid19 from "./../assets/video/vid19.mp4";
-import vid20 from "./../assets/video/vid20.mp4";
-import vid21 from "./../assets/video/vid21.mp4";
-import vid22 from "./../assets/video/vid22.mp4";
-import vid23 from "./../assets/video/vid23.mp4";
-import vid24 from "./../assets/video/vid24.mp4";
-import vid25 from "./../assets/video/vid25.mp4";
-import vid26 from "./../assets/video/vid26.mp4";
 import ReactPlayer from "react-player";
 import "bootstrap/dist/css/bootstrap.css";
 
@@ -34,107 +8,111 @@ const VideoCarousel = () => {
   const videos = [
     {
       id: 1,
-      src: vid1,
+      src: "https://res.cloudinary.com/ddinxvgsh/video/upload/v1682704323/vid1_o2ok67.mp4",
     },
     {
       id: 2,
-      src: vid2,
+      src: "https://res.cloudinary.com/ddinxvgsh/video/upload/v1682704386/vid2_u5gfxe.mp4",
     },
     {
       id: 3,
-      src: vid3,
+      src: "https://res.cloudinary.com/ddinxvgsh/video/upload/v1682704529/vid3_lvs0zx.mp4",
     },
     {
       id: 4,
-      src: vid4,
+      src: "https://res.cloudinary.com/ddinxvgsh/video/upload/v1682704725/vid4_lkozjq.mp4",
     },
     {
       id: 5,
-      src: vid5,
+      src: "https://res.cloudinary.com/ddinxvgsh/video/upload/v1682704269/vid5_ctf0yn.mp4",
     },
     {
       id: 6,
-      src: vid6,
+      src: "https://res.cloudinary.com/ddinxvgsh/video/upload/v1682704891/vid6_l4cr4m.mp4",
     },
     {
       id: 7,
-      src: vid7,
+      src: "https://res.cloudinary.com/ddinxvgsh/video/upload/v1682704934/vid7_w7qcut.mp4",
     },
     {
       id: 8,
-      src: vid8,
+      src: "https://res.cloudinary.com/ddinxvgsh/video/upload/v1682704946/vid8_uow2ee.mp4",
     },
     {
       id: 9,
-      src: vid9,
+      src: "https://res.cloudinary.com/ddinxvgsh/video/upload/v1682704959/vid9_rjkych.mp4",
     },
     {
       id: 10,
-      src: vid10,
+      src: "https://res.cloudinary.com/ddinxvgsh/video/upload/v1682704970/vid10_k1ngys.mp4",
     },
     {
       id: 11,
-      src: vid11,
+      src: "https://res.cloudinary.com/ddinxvgsh/video/upload/v1682705088/vid11_dsuem7.mp4",
     },
     {
       id: 12,
-      src: vid12,
+      src: "https://res.cloudinary.com/ddinxvgsh/video/upload/v1682705111/vid12_r1fl4m.mp4",
     },
     {
       id: 13,
-      src: vid13,
+      src: "https://res.cloudinary.com/ddinxvgsh/video/upload/v1682705133/vid13_hii1gp.mp4",
     },
     {
       id: 14,
-      src: vid14,
+      src: "https://res.cloudinary.com/ddinxvgsh/video/upload/v1682705160/vid14_usdidy.mp4",
     },
     {
       id: 15,
-      src: vid15,
+      src: "https://res.cloudinary.com/ddinxvgsh/video/upload/v1682705175/vid15_wggfbm.mp4",
     },
     {
       id: 16,
-      src: vid16,
+      src: "https://res.cloudinary.com/ddinxvgsh/video/upload/v1682705410/vid16_foxtgb.mp4",
     },
     {
       id: 17,
-      src: vid17,
+      src: "https://res.cloudinary.com/ddinxvgsh/video/upload/v1682705429/vid17_mzpng2.mp4",
     },
     {
       id: 18,
-      src: vid18,
+      src: "https://res.cloudinary.com/ddinxvgsh/video/upload/v1682705442/vid18_fayfok.mp4",
     },
     {
       id: 19,
-      src: vid19,
+      src: "https://res.cloudinary.com/ddinxvgsh/video/upload/v1682705455/vid19_rcbrck.mp4",
     },
     {
       id: 20,
-      src: vid20,
+      src: "https://res.cloudinary.com/ddinxvgsh/video/upload/v1682705484/vid20_icsavb.mp4",
     },
     {
       id: 21,
-      src: vid21,
+      src: "https://res.cloudinary.com/ddinxvgsh/video/upload/v1682705542/vid21_ofufnx.mp4",
     },
     {
       id: 22,
-      src: vid22,
+      src: "https://res.cloudinary.com/ddinxvgsh/video/upload/v1682705565/vid22_tdbt0r.mp4",
     },
     {
       id: 23,
-      src: vid23,
+      src: "https://res.cloudinary.com/ddinxvgsh/video/upload/v1682705585/vid23_s1n14r.mp4",
     },
     {
       id: 24,
-      src: vid24,
+      src: "https://res.cloudinary.com/ddinxvgsh/video/upload/v1682705605/vid24_dqeb1m.mp4",
     },
     {
       id: 25,
-      src: vid25,
+      src: "https://res.cloudinary.com/ddinxvgsh/video/upload/v1682705617/vid25_mi46vn.mp4",
     },
     {
       id: 26,
-      src: vid26,
+      src: "https://res.cloudinary.com/ddinxvgsh/video/upload/v1682705630/vid26_jllias.mp4",
+    },
+    {
+      id: 27,
+      src: "https://res.cloudinary.com/ddinxvgsh/video/upload/v1682705641/vid27_p1yaf9.mp4",
     },
   ];
 
